@@ -13,11 +13,8 @@ export default class Order {
         this.shipping_status = shipping_status;
     }
 
-    get findOne() {
-        const order = {
-            ...this,
-        }
-        return order;
+    get find() {
+        return this;
     }
 
 }
