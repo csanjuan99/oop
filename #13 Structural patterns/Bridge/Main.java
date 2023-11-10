@@ -1,4 +1,4 @@
-public class Ejemplo {
+public class Main {
   public static void main(String[] args) {
     ConcreteImplementationUno implementation1 = new ConcreteImplementationUno();
 

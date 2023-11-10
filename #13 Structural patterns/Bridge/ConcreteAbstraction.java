@@ -1,7 +1,8 @@
 public class ConcreteAbstraction implements IAbstraction {
-  private Implementation implementation;
 
-  public ConcreteAbstraction(Implementation implementation) {
+  private IImplementation implementation;
+
+  public ConcreteAbstraction(IImplementation implementation) {
     this.implementation = implementation;
   }
 
